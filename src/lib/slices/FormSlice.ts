@@ -2,20 +2,20 @@ import { createSlice } from '@reduxjs/toolkit';
 import { FromData } from './types';
 
 const initialState:FromData= { 
-    first_name:"Kinght",
-    last_name:"casimir",
-    email:"knightCasimir@gmai.com",
-    phone:"9999999985",
-    specialties:["mental"] as string[],
-    npiNumber:"8585865525",
-    yearsExperience:"3",
-    credentials:["KL"] as string[],
+    first_name:"",
+    last_name:"",
+    email:"",
+    phone:"",
+    specialties:[] as string[],
+    npiNumber:"",
+    yearsExperience:"",
+    credentials:[] as string[],
     insurance:[] as string[],
     canSeePatientsInde:"",
     malpractiveInsurance:"",
     payPerAppointmentModel:"",
     ehr_emr_system:"",
-    practiceState:["NY"] as string[],
+    practiceState:[] as string[],
 };
 
 const formSlice = createSlice({
