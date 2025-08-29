@@ -3,7 +3,7 @@ import axios from 'axios'
 
 
 const createInstance = axios.create({
-    baseURL:"http://localhost:9000/api/v1"
+    baseURL:"https://dev.blumehealthco.com/api/v1"
 })
 
 

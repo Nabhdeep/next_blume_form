@@ -67,14 +67,12 @@ export default function StepWrapper({
             {/* Review 1 */}
             <div className="bg-white p-4 rounded-lg shadow-md">
               <div className="flex items-start space-x-3">
-                <Image 
-                  src={docAsian}
-                  alt="Dr. Denise Smith"
-                  className="h-10 w-10 rounded-full flex-shrink-0"
-                />
+                <div className="h-10 w-10 bg-blue-500 rounded-full flex items-center justify-center text-white font-semibold text-sm">
+                  DS
+                </div>
                 <div className="flex-1">
                   <div className="flex items-center mb-2">
-                    <p className="font-semibold text-gray-900 mr-2">Dr. Denise Smith</p>
+                    <p className="font-semibold text-gray-900 mr-2">Denise Smith</p>
                     <div className="flex text-yellow-400 text-sm">★★★★★</div>
                   </div>
                   <p className="text-gray-700 text-sm italic mb-1">
@@ -89,11 +87,11 @@ export default function StepWrapper({
             <div className="bg-white/90 p-4 rounded-lg shadow-md">
               <div className="flex items-start space-x-3">
                 <div className="h-10 w-10 bg-blue-500 rounded-full flex items-center justify-center text-white font-semibold text-sm">
-                  MJ
+                  SJ
                 </div>
                 <div className="flex-1">
                   <div className="flex items-center mb-2">
-                    <p className="font-semibold text-gray-900 mr-2">Dr. Sarah Johnson</p>
+                    <p className="font-semibold text-gray-900 mr-2">Sarah Johnson</p>
                     <div className="flex text-yellow-400 text-sm">★★★★★</div>
                   </div>
                   <p className="text-gray-700 text-sm italic mb-1">
